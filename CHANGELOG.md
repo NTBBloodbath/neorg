@@ -1,5 +1,29 @@
 # Changelog
 
+## [4.0.0](https://github.com/nvim-neorg/neorg/compare/v3.2.2...v4.0.0) (2023-05-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* move all `gt*` keybinds to `<LocalLeader>t*`
+* remove `core.news`
+
+### Features
+
+* add basic cheatsheet (viewable via `:h neorg-cheatsheet`) ([d3e37a6](https://github.com/nvim-neorg/neorg/commit/d3e37a681743181a34dcfa7adb6ec61fb5aeb63c))
+
+
+### Bug Fixes
+
+* **esupports.hop:** anchors to files woul dresult in a "link not found" ([#688](https://github.com/nvim-neorg/neorg/issues/688)) ([3009adf](https://github.com/nvim-neorg/neorg/commit/3009adf2cf48aedcbb309d0765e0fbbb64a0fdf4))
+* **keybinds.lua:** remove dead `toc` keybinds ([06666f2](https://github.com/nvim-neorg/neorg/commit/06666f298e146d758d691366ca3465a3bd1e3f7f))
+
+
+### Code Refactoring
+
+* move all `gt*` keybinds to `&lt;LocalLeader&gt;t*` ([f67110d](https://github.com/nvim-neorg/neorg/commit/f67110d11d37fde09756eb2de8a1814d04a4a03b))
+* remove `core.news` ([4086d9f](https://github.com/nvim-neorg/neorg/commit/4086d9f17d823cfe5a13e7b12b30e13b5d3b796d))
+
 ## [3.2.2](https://github.com/nvim-neorg/neorg/compare/v3.2.1...v3.2.2) (2023-04-27)
 
 
